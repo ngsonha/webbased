@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- JavaScript Bundle with Popper -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<title>Home</title>
+	</head>
+	<body class="bg-light">
+		<div class="header-product">
+			<div class="container d-flex justify-content-between ">
+				<div class="logo ml-5">
+					<a href="home.html">
+						<img src="image/logo.png" alt="" />
+					</a>
+				</div>
+
+				<div class="header-right ">
+					<div class="row">
+						<ul class="social mt-5" style="display: inline-block ">
+							<li>
+								<a href=""> <i class="fb"> </i> </a>
+							</li>
+							<li>
+								<a href=""><i class="tw"> </i> </a>
+							</li>
+							<li>
+								<a href=""><i class="utube"> </i> </a>
+							</li>
+							<li>
+								<a href=""><i class="pin"> </i> </a>
+							</li>
+							<li>
+								<a href=""><i class="instagram"> </i> </a>
+							</li>
+						</ul>
+						<div id="mydiv" class="dropdown ml-3">
+							<button
+								class="btn btn-default dropdown-toggle "
+								style="color:white ;margin-top:45px "
+								type="button"
+								id="mybyn"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="true"
+							>
+								EN
+							</button>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row ">
+					<div class="col-3 ">
+						<div class=" container " style="background-color: whitesmoke">
+							<div class="row d-flex  justify-content-between text-center   ">
+								<div class="col-6 textColor">
+									<a href="" class="textColor a1">LOGIN</a>
+								</div>
+
+								<div class="col-6 ">
+									<a href="" class="textColor a1">WISH LIST</a>
+								</div>
+							</div>
+						</div>
+						<div class="container" style="background-color: hsl(24, 100%, 50%)">
+							<div class="cart_bg">
+								<ul class="cart">
+									<i class="cart_icon"></i>
+									<p class="cart_desc">
+										$1459.50<br /><span class="yellow">2 items</span>
+									</p>
+									<div class="clearfix"></div>
+								</ul>
+								<ul class="product_control_buttons">
+									<li>
+										<a href="#"><img src="image/close.png" alt=""/></a>
+									</li>
+									<li><a href="#">Edit</a></li>
+								</ul>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="container" style="background-color:  #ee4a02;"></div>
+						<ul class="quick_access">
+							<li class="view_cart"><a href="#">View Cart</a></li>
+							<li class="check"><a href="#">Checkout</a></li>
+							<div class="clearfix"></div>
+						</ul>
+
+						<div class="search">
+							<input
+								type="text"
+								value="Search"
+								onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Search';}"
+							/>
+							<input class="search1" type="submit" value="" />
+						</div>
+						
+					</div>
+					<div class="col-3"></div>
+					<div class="col-4">
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="main ">
+			<div class="content_box">
+				<div class="container">
+					<div class="row">
+                        <!-- menu -->
+						<div class="col-md-3">
+							<div class="menu_box">
+								<h3 class="menu_head">Menu</h3>
+								<ul class="list-group ">
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none"
+											>ABOUT</a
+										>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none"
+											>APPAREL</a
+										>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none"
+											>SURF APPAREL</a
+										>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none"
+											>WINDSURF</a
+										>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none"
+											>KITESURF</a
+										>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none"
+											>ACCESSORIES</a
+										>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none">SALE</a>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none"
+											>BRANDS</a
+										>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none">BLOG</a>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="" class="a2" style="text-decoration: none"
+											>GADETS</a
+										>
+									</li>
+									<li
+										class="list-group-item list-group-item-action  "
+										style="background-color:#26d2fc;
+									"
+									>
+										<a href="contact.html" class="a2" style="text-decoration: none" 
+											>CONTACT</a
+										>
+									</li>
+								</ul>
+                            </div>
+                            
+                            <div class="menu_box mt-3">
+                                    <h3 class="menu_head">CATEGORY OPTIONS</h3>
+                                    <ul class="list-group ">
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >MEN</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >WOMEN</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >KIDS</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >WETSUITS</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >OUTERWEAR</a
+                                            >
+                                        </li>
+                                        
+                                    </ul>
+                            </div>
+                            <div class="menu_box mt-3">
+                                    <h3 class="menu_head">BRAND OPTIONS</h3>
+                                    <ul class="list-group ">
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >BILLABONG</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >ELEMENT</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >O'NEILL</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >OAKLEY</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >REEF</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >QUICKSILVER</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >RIPCURL</a
+                                            >
+                                        </li>
+                                        <li
+                                            class="list-group-item list-group-item-action  "
+                                            style="background-color:#26d2fc;
+                                        "
+                                        >
+                                            <a href="" class="a2" style="text-decoration: none"
+                                                >JACKSS</a
+                                            >
+                                        </li>
+                                        
+                                    </ul>
+                            </div>
+
+							<div class="container  bg-menu mt-4 ">
+								<div class="row ">
+									<div class="col-12 text-bg-menu">
+										<h1>
+											NOW <br />
+											IS <br />
+											OPEN!
+										</h1>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+
+						<div class="col-md-9">
+                           
+							<div
+								class="row d-flex justify-content-between mt-2"
+								style="color: gray;"
+                            >
+                            
+
+								<p class=" ml-3">
+									Home >
+									<span
+										style="background-color: yellow;padding: 3px 3px 3px 3px"
+									>
+                                    Checkout</span
+									>
+								</p>
+
+								<p style="margin-right:270px">
+									<p>  << Back to previous page</p>
+								</p>
+							</div>
+							<div class="row mt-4">
+                                
+                                <span class="border  border-dark rounded-circle ml-3  " style="width :35px ;text-align: center ;color: gray" >
+                                    <h4 >1</h4> </span><h4 style="color:gray ;margin-left: 5px"> SHOPPING CART</h4>
+                                <span class="border border-danger rounded-circle ml-5  " style="width :35px ;text-align: center ;color: gray " >
+                                            <h4 style="color: red " >2</h4> </span><h4 style=" margin-left: 5px ;color: red "> CHECKOUT</h4>
+                                <span class="border border-dark rounded-circle ml-5 " style="width :35px ;text-align: center ; color: gray " >
+                                            <h4 >3</h4> </span><h4 style=" margin-left: 5px;color: gray "> OREDER CONFIRMATION</h4>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-8 mt-5 d-flex">
+                                    <div class="col-6 ">
+                                        <div class="row">
+                                            <h2>CONTINUE AS A</h2>
+                                            <h1 style="font-weight: bold ">GUEST!</h1>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                               <p>
+                                                    Register with us for future covenience: <br>
+                                                    <b>You can savar your data in order to speed up your next shopping experence</b> 
+                                               </p>
+                                                
+                                        </div>
+                                        
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-12">  <input style="margin-top: 7px ;margin-right:5px" type="radio" id="scales" name="scales"
+                                                checked>
+                                         <label for="scales"><B>CHECKOUT AS GUEST</B> </label></div>
+                                              <div class="col-12">  <input style="margin-top: 7px ;margin-right:5px" type="radio" id="scales" name="scales"
+                                                checked>
+                                         <label for="scales"><B>REGISTER</B> </label></div>
+                                         
+                                       
+                                         
+                                        </div>
+                                        <div class="row">
+                                            <b>Register and save time!</b>
+                                            <p>Register with us for future convenience:</p>
+                                            <ul>
+                                                <li>Fast and easy checkout</li>
+                                                <li>Easy access to your order history and status</li>
+                                            </ul>
+                                        </div>
+                                        <hr>
+                                        <div class="row d-flex justify-content-center"><button type="button" class="btn btn-dark w-100" style="font-size: 20px;font-weight: bold">FILL THE SIGN FORM</button></div>
+                                    </div>
+                                    <div class="col-6 ml-3">
+                                        <div class="row">
+                                                    <h2>ARE YOU A</h2>
+                                                    <h1 style="font-weight: bold ">MEMBER!</h1>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                      <b>Already registered?</b>
+                                      <p>Please log in below:</p>
+                                                 
+                                         </div>
+                                         <br>
+                                         <div class="row">
+                                                <label for="fullname" ><b>Email Address<span style="color: red">*</span> </b></label>
+                                                <input type="text" class="form-control" id="fullname" placeholder="" value="" required="">
+                                                <br> <br>
+                                                <label for="fullname" ><b>Password <span style="color: red">*</span> </b></label>
+                                                <input type="text" class="form-control" id="fullname" placeholder="" value="" required="">
+                                         </div>
+                                         <br>
+                                         <div class="row d-flex justify-content-between " style="margin-bottom:5px ">
+                                                <span style="color: red">* Required Fields </span>
+                                                <a href="" style="color:black"> <i> Forgot Password?</i> </a>
+                                         </div>
+                                         <br>
+                                         <br>
+                                         <br>
+                                         <br>
+                                         <hr>
+                                         <div class="row d-flex justify-content-center"><button type="button" class="btn btn-dark w-50" style="font-size: 20px;font-weight: bold">LOGIN</button></div>
+                                    </div>
+                                
+                                
+                               </div>
+                                <div class="col-md-4">
+                                    <div class="container check-out">
+                                        <div class="row">
+                                            <div class="col-12 mt-3 d-flex justify-content-center text-white"><h5>REVIEW YOUR CARD</h5></div>
+                                        </div>
+                                        <div class="row mt-5 ">
+                                            <div class="col-8 text-white " ><p >YOUR CART</p></div>
+                                            <div class="col-4 text-white d-flex justify-content-end "><p >$1399.50</p></div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-8 text-white " ><p >SHIPPING</p></div>
+                                            <div class="col-4 text-white d-flex justify-content-end "><p >FREE</p></div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-8 text-white " ><p >vat</p></div>
+                                            <div class="col-4 text-white d-flex justify-content-end "><p >$13.50</p></div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-8 text-white " ><p >OREDER TOTAL</p></div>
+                                            <div class="col-4 text-white d-flex justify-content-end "><p >$1413.00</p></div>
+                                        </div>
+                                        <div class="row d-flex justify-content-center mt-5 ">
+                                                <button type="button" class="btn btn-dark w-75" style="font-size: 20px;font-weight: bold" >CHECK OUT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+			   <hr>
+<!--product -->
+				<div class="row mt-5">
+                    <div class="col-4">
+                        <b>YOUR SHIPPING INFORMATION</b>
+                        <label for="fullname" class="mt-5">EMAIL*</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="e.g. name@email.com" value="" required="">
+                        <br>
+                        <label for="fullname" >FULL NAME*</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="first name" value="" required="">
+                        <br>
+                        <input type="text" class="form-control" id="fullname" placeholder="surname" value="" required="">
+                        <br>
+                        <label for="fullname" >COMPANY</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="e.g. your company (optional)" value="" required="">
+                        <br> 
+                        <label for="fullname" >ADDRESS*</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="address line 1" value="" required="">
+                        <br>
+                        <input type="text" class="form-control" id="fullname" placeholder="address line 2" value="" required="">
+                        <br>
+                        <div class="row  mt-5">                        
+                            <input style="  height: 20px; width: 20px;" type="checkbox" id="scales" name="scales"
+                            checked>
+                     <label for="scales" ><p style="font-size:14px;font-weight: bold ;margin-left: 1px">BILLING ADDRESS SAME AS SHIPPING</p> </label></div>
+
+                    </div>
+                    <div class="col-4">
+                        <br>
+                            <label for="fullname" class="mt-5">POSTAL CODE*</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="e.g. 201000" value="" required="">
+                            <br>
+                            <label for="fullname" >TOWN / CITY*</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="e.g. L.A" value="" required="">
+                            <br>
+                            <label for="fullname" >STATE / COUNTRY*</label>
+                            <select class="custom-select custom-select-lg ">
+                                    <option selected>select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                            <br>
+                            <br>
+                            
+                            <label for="fullname" >PROVINCE*</label>
+                            <select class="custom-select custom-select-lg ">
+                                    <option selected>select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-4"> <label for="fullname" >MOBILE*</label>
+                                    <select class="custom-select custom-select-lg  " style="font-size: 10px ;font-weight: bold">
+                                            <option selected>00+</option>
+                                            <option value="1">84+</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select></div>
+                                <div class="col-8 mt-1">
+                                        <br>
+                                        <input type="text" class="form-control" id="fullname" placeholder="" value="" required="">
+                                </div>
+                            </div>
+                           
+                            <br>
+                            
+                            <div class="row " style="margin-top: 60px ;" >                        
+                                    <input style=" height: 20px; width: 20px;" type="checkbox" id="scales" name="scales"
+                                    checked>
+                             <label for="scales" ><p style="font-size:14px;font-weight: bold ;margin-left: 1px">REMEBER THIS ADDRESS NEXT TIME</p> </label></div>
+                    </div>
+                    <div class="col-4"><b>YOUR PAYMENT DETAILS</b>
+                        <br>
+                        <label for="fullname" class="mt-5">CREDIT CARD NUMBER*</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="type your credit card number" value="" required="">
+                        <br>
+                        
+                        <div >
+                            
+                                <img src="image/Capture.PNG" style="height: 50px;margin-left:18px" alt="">
+                                
+                              
+                        </div>
+                        <br>
+                        <label for="fullname" >EXPIRATION DATE*</label>
+                        <div class="row">
+                            
+                               <div class="col-6"><select class="form-select" aria-label="Default select example">
+                                    <option selected>Month</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select></div>
+                               <div class="col6"><select class="form-select" aria-label="Default select example">
+                                    <option selected>Year</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select></div>
+                                
+                              
+                        </div>
+                        <br>
+                        <label for="fullname" >SECURE CODE (CCV)*</label>
+                        <div class="row ">
+                            <div class="col-7"><input type="text" class="form-control" id="fullname" placeholder="000" value="" required=""></div>
+                            <div class="col-5 mt-2"> <a href="" style="font-size: 15px;color:black ;" class="">What is this?</a></div>
+                        </div>
+                        
+                        
+                        <br>
+                        <label for="fullname" >NAME ON CARD*</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="name on card" value="" required="">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <i style="margin-top: 60px ;">We value your privacy</i>
+                        <div class="row  " style="margin-top: 15px ;" >       
+                                             
+                                <input style=" height: 20px; width: 20px;" type="checkbox" id="scales" name="scales"
+                                checked>
+                         <label for="scales" ><p style="font-size:14px;font-weight: bold ;margin-left: 1px">REMEBER THIS CARD INFO NEXT TIME</p> </label></div>
+                </div>
+                   
+                    
+                </div>
+                <div class="row mt-5">
+                        <div class="col-9"><p>
+                            By clicking "Place my order", you agree to our Terms of Use and Privacy Polocy, including the transfer of your personl information to Italy, a jurisdiction that may not provide an equivalent level of data protection to the laws in your home country
+                        </p></div>
+                        <div class="col-3"> <button type="button" class="btn btn-dark w-100" style="font-size: 20px;font-weight: bold" >PLACE ORDER</button></div>
+                    </div>
+			
+				</div>
+			</div>
+			
+					
+					<ul class="footer_social" style="margin-bottom: -16px">
+					  <li><a href="#"> <i class="fb"> </i> </a></li>
+					  <li><a href="#"><i class="tw"> </i> </a></li>
+					  <li><a href="#"><i class="pin"> </i> </a></li>
+					  <div class="clearfix"></div>
+					 </ul>
+					
+				
+		</div>
+	</div>
+		</div>
+									
+		<div class="footer">
+				<div class="container">
+					<div class="footer-grid">
+						<h3>Category</h3>
+						<ul class="list1">
+						  <li><a href="#">Home</a></li>
+						  <li><a href="#">About us</a></li>
+						  <li><a href="#">Eshop</a></li>
+						  <li><a href="#">Features</a></li>
+						  <li><a href="#">New Collections</a></li>
+						  <li><a href="#">Blog</a></li>
+						  <li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="footer-grid">
+						<h3>Our Account</h3>
+						<ul class="list1">
+						  <li><a href="#">Your Account</a></li>
+						  <li><a href="#">Personal information</a></li>
+						  <li><a href="#">Addresses</a></li>
+						  <li><a href="#">Discount</a></li>
+						  <li><a href="#">Orders history</a></li>
+						  <li><a href="#">Addresses</a></li>
+						  <li><a href="#">Search Terms</a></li>
+						</ul>
+					</div>
+					<div class="footer-grid">
+						<h3>Our Support</h3>
+						<ul class="list1">
+						  <li><a href="#">Site Map</a></li>
+						  <li><a href="#">Search Terms</a></li>
+						  <li><a href="#">Advanced Search</a></li>
+						  <li><a href="#">Mobile</a></li>
+						  <li><a href="contact.html">Contact Us</a></li>
+						  <li><a href="#">Mobile</a></li>
+						  <li><a href="#">Addresses</a></li>
+						</ul>
+					  </div>
+					  <div class="footer-grid">
+						<h3>Newsletter</h3>
+						<p class="footer_desc">Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+						<div class="search_footer">
+						 <form>
+						  <input type="text" class="text" value="Insert Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Insert Email';}">
+						  <input type="submit" value="Submit">
+						  </form>
+						</div>
+						<img src="image/payment.png" class="img-responsive" alt="">
+					 </div>
+					 <div class="footer-grid footer-grid_last">
+						<h3>About Us</h3>
+						<p class="footer_desc">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,.</p>
+						<p class="f_text">Phone:  &nbsp;&nbsp;&nbsp;00-250-2131</p>
+						<p class="email">Email: &nbsp;&nbsp;&nbsp;<span><a href="mailto@example.com">info(at)Surfhouse.com</a></span></p>	
+					 </div>
+					 <div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="footer_bottom">
+					<div class="container">
+						<div class="row d-flex justify-content-center">
+							<div class="col-6"><div class="copy">
+									<p>Copyright © 2014 Surfhouse . All Rights Reserved  | Template by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
+								 </div></div>
+							<div class="col-6">
+
+									<a href=""><i class="fab fa-pinterest-p social-i"></i></a>
+									<a href=""><i class="fab fa-glide-g social-i"></i></a>
+									<a href=""><i class="fab fa-tumblr social-i"></i></a>
+									<a href=""><i class="fab fa-instagram social-i"></i></a>
+									<a href=""><i class="fas fa-wifi social-i"></i></a>
+									<a href=""><i class="fab fa-facebook-f social-i"></i></a>
+									<a href=""><i class="fab fa-twitter social-i"></i></a>
+
+							</div>
+						</div>
+						
+					
+				</div>
+	</body>
+</html>
