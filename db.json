@@ -1,0 +1,92 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name_product": "Lorem Ipsum 2014",
+			"price_product": "100",
+			"image": "pic1.jpg",
+			"description": "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es"
+		},
+		{
+			"id": 2,
+			"name_product": "Lorem Ipsum 2017",
+			"price_product": "90",
+			"image": "pic3.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		},
+		{
+			"id": 3,
+			"name_product": "Crop top 27",
+			"price_product": "78",
+			"image": "pic7.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		},
+		{
+			"id": 4,
+			"name_product": " Lorem Ipsum 2021 ",
+			"price_product": "92",
+			"image": "pic5.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		},
+		{
+			"id": 5,
+			"name_product": "Lorem shirt 2021 ",
+			"price_product": "94",
+			"image": "pic8.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		},
+		{
+			"id": 6,
+			"name_product": "Lorem shirt red",
+			"price_product": "98",
+			"image": "pic9.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		}
+	],
+	"top-product": [
+		{
+			"id": 1,
+			"name_product": "Lorem Ipsum 2014",
+			"price_product": "$100",
+			"image": "pic12.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		},
+		{
+			"id": 2,
+			"name_product": "Lorem Ipsum 2017",
+			"price_product": "$90",
+			"image": "pic10.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		},
+		{
+			"id": 3,
+			"name_product": "Beatifull shirt 27",
+			"price_product": "$78",
+			"image": "pic11.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		}
+	],
+	"sale-product": [
+		{
+			"id": 1,
+			"name_product": "Lorem Ipsum 2014",
+			"price_product": "$100",
+			"image": "pic10.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		},
+		{
+			"id": 2,
+			"name_product": "Lorem Ipsum 2017",
+			"price_product": "$90",
+			"image": "pic9.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		},
+		{
+			"id": 3,
+			"name_product": "Beatifull shirt 27",
+			"price_product": "$78",
+			"image": "pic8.jpg",
+			"description": "váy đẹp cho gái đẹp mặc"
+		}
+	]
+}

@@ -944,22 +944,7 @@ ul.product-qty {
 	font-size: 1em;
 	outline: none;
 }
-.btn_form form input[type="submit"] {
-	cursor: pointer;
-	border: none;
-	outline: none;
-	display: inline-block;
-	font-size: 1em;
-	padding: 10px 20px;
-	background: #fb4d01;
-	color: #fff;
-	text-transform: uppercase;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	margin-left: 220px;
-}
+
 button,
 html input[type="button"],
 input[type="reset"],
@@ -1066,4 +1051,70 @@ h3.recent {
 .check-out {
 	height: 400px;
 	background-color: orangered;
+}
+.invalid {
+	color: red;
+}
+.item-hover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(160, 160, 160, 1);
+	opacity: 0;
+}
+.item-hover a {
+	background-color: white;
+	padding: 0.4em 2em;
+	margin-bottom: 1em;
+}
+.item-hover button {
+	background-color: white;
+	margin-bottom: 1em;
+}
+.product-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.product-item {
+	background-color: #fff;
+	width: 30%;
+	padding: 1em;
+	margin: 1em 0.5em;
+	position: relative;
+	height: calc(100% - 2em);
+}
+.item-hover:hover {
+	background-color: rgba(160, 160, 160, 0.4);
+	opacity: 1;
+}
+.product-description {
+	display: flex;
+	height: 3em;
+	justify-content: space-between;
+	font-weight: bold;
+	margin: 0.5em 0em 0em;
+}
+.act {
+	background: orangered;
+	margin-bottom: 200px;
+	margin-left: 200px;
+	border-radius: 2px;
+}
+.menu-li:hover{
+	opacity: 0.2;
+	transform: scale(1.1);
+     z-index: 10;
+     background-color: black;
+     box-shadow: 0 5px 25px rgba(0,0,0,.2);
+     color: #fff;
+     opacity: 1;
 }
