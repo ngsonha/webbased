@@ -456,7 +456,7 @@ ul.instagram_grid {
 	list-style: none;
 }
 ul.instagram_grid li {
-	width: 15.7671%;
+	width: 15.7%;
 	float: left;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -490,19 +490,19 @@ ul.footer_social li a {
 	transition: all 0.3s ease;
 }
 i.fb {
-	width: 379px;
+	width: 100%;
 	height: 150px;
 	display: block;
 	background: url(../image/fb.png) #3b5997 no-repeat 145px 25px;
 }
 i.tw {
-	width: 380px;
+	width: 100%;
 	height: 150px;
 	display: block;
 	background: url(../image/tw.png) #3fccfd no-repeat 145px 25px;
 }
 i.pin {
-	width: 371px;
+	width: 100%;
 	height: 150px;
 	display: block;
 	background: url(../image/pin.png) #cb2027 no-repeat 145px 25px;

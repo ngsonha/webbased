@@ -5,12 +5,12 @@ let renderCart = () => {
 	if (cart == null) cart = [];
 	let html = ` 
 	<div class="row product-dm showcart" > 
-	<div class="col-6"><p>
+	<div class=" col-6"><p>
 		PRODUCT NAME
 	</p></div>
-	<div class="col-1" style="text-align: center"><p>UNIT PRICE</p></div>
-	<div class="col-3" style="text-align: center"><p>QTY</p></div>
-	<div class="col-2" style="text-align: center"><p>SUBTOTAL</p></div>
+	<div class=" col-1" style="text-align: center"><p>UNIT PRICE</p></div>
+	<div class=" col-3" style="text-align: center"><p>QTY</p></div>
+	<div class=" col-2" style="text-align: center"><p>SUBTOTAL</p></div>
 	
 </div> <hr>`;
 
